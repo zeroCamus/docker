@@ -1,5 +1,5 @@
 FROM python:2.7
-LABEL maintaner="liming你好 394498036@qq.com"
+LABEL maintaner="zerocamus你好，zerocamus@gmail.com"
 COPY . /app
 WORKDIR /app
 RUN pip install flask redis
